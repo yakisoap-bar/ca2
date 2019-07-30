@@ -1,0 +1,52 @@
+/*
+Author: Ang Yak Hng
+Filename: projects.css
+
+Last edit: 29 Jul 2019
+*/
+
+#jumbo {
+    background-color: #68d89b;
+}
+
+
+/* Button styling */
+#spigot-btn {
+    border-color: #98fb98;
+}
+
+#spigot-btn:hover {
+    background-color: #98FB98;
+}
+
+#wp-btn {
+    border-color: #21759b;
+}
+
+#wp-btn:hover {
+    color: #ffffff;
+    background-color: #21759b;
+}
+
+#ca1-btn {
+    border-color: #00bfff;
+}
+
+#ca1-btn:hover {
+    background-color: #00bfff;
+}
+
+#ca2-btn {
+    border-color: #9370db;
+}
+
+#ca2-btn:hover {
+    background-color: #9370db;
+    color: #ffffff;
+}
+
+/* Footer styling */
+#footer {
+    background-color: #68d89b;
+}
+

@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+    
+    <!--
+    Author: Ang Yak Hng
+    Filename: index.html
+
+    Last edit: 30 Jul 2019
+    -->
+    
+    <head>
+        <title>Home</title>
+        
+        <!-- Links to external files -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='global.css' type='text/css'>
+        <link rel='stylesheet' href="home.css" type="text/css">
+        <script src="https://kit.fontawesome.com/efbe37c53e.js"></script>
+        
+        <!-- jQuery 1.8 or later, 33 KB -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        <!-- Fotorama from CDNJS, 19 KB -->
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+        
+        <!-- Required tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><strong>Yak</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interests.html">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Welcome message -->
+        <div class="jumbotron jumbotron-fluid" id='jumbo'>
+            <div class="container">
+                <h1 class='display-4'>Hello, my name is </h1>
+                <h1 class='display-4'><strong>Ang Yak Hng</strong>.</h1>
+                <p class="lead">Welcome to my website.</p>
+                
+                <hr class='my-4'>
+                
+                <p>Check out this project on Github!</p>
+                <a class='btn btn-dark btn-md' role="button" id='github-btn'><i class="fab fa-github"></i> Github</a>
+            </div>
+        </div>
+        
+        <!-- About me -->
+        <div class='container'>
+            <div class='row'>
+                <div class='col-12 col-md-3 col-lg-2'>
+                <img class='img-fluid' src="Images/me.jpg" alt="A picture of me" id='img-myself'>
+                </div>
+            
+                <div class="col-12 col-md-9 col-lg-8">
+                    <h5>This is me.</h5>
+                    <p>Hi. I am Ang Yak Hng from the Diploma of Infocomm Technology, or DIT course in Singapore Polytechnic. I've had a profound interest in technology ever since I joined the School of Science and Technology, Singapore, or SST, a specialised secondary school that makes use of technology to teach.</p>
+
+                    <h5>Why Polytechnic?</h5>
+                    <p>Well, it wasn't always like this. When I first joined SST, I wanted to go to JC like what many of my family members did, but over time, as I progressed through SST, I realised I liked to do hands-on activities much more than sitting down in front of a desk and cramming. Thus, in the middle of Secondary 4, my ideals changed, shifting more in favour of polytechnic, and well, here I am.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Travel Photos -->
+        <div class='container'>
+            <h4>Travels</h4>
+            <p>Every now and then, I travel to other countries with my family. Here are some photos from my travels.</p>
+            
+            <div class='col-12 col-md-10 col-lg-8 mx-auto'>
+                <div class='fotorama' data-width='100%' data-allowfullscreen="true" data-loop='true' data-autoplay='true'>
+                    <img src='Images/bali_resort.jpg' data-caption='2018, Bali - The view from the resort we stayed at.'>
+                    <img src='Images/bali_temple.jpg' data-caption='2018, Bali - A temple we visited.'>
+                    <img src='Images/gapyeong_station.jpg' data-caption='2017, South Korea - Gapyeong station. It was cold there.'>
+                    <img src='Images/snowy_mountains_korea.jpg' data-caption='2017, South Korea - On the way to a ski resort. First time seeing snow in person.'>
+                    <img src='Images/seongsan_sunrise_peak.jpg' data-caption='2014, South Korea - The view from halfway up a dormant volcano.'>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer py-3 mt-3" id='footer'>
+            <div class="container-fluid">
+                <div class='row'>
+                    <div class='col-6'>
+                        <a href='#' class='btn rounded-circle' id='insta-btn'><i class="fab fa-instagram"></i></a>
+                        <a href='#' class='btn rounded-circle' id='reddit-btn'><i class='fab fa-reddit'></i></a>
+                    </div>
+                    <div class='col-6 text-right align-middle'>
+                        <p class=' m-0 mt-2'>&copy; Ang Yak Hng, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
