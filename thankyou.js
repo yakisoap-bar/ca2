@@ -1,3 +1,10 @@
+/*
+Name: Ang Yak Hng
+Filename: thankyou.js
+
+last edit: 02 Aug 2019
+*/
+
 var queryStr = decodeURIComponent(window.location.search);
 queryStr = queryStr.substring(1);
 
@@ -19,8 +26,6 @@ for (var i = 0; i < queries.length; i++) {
 
 // redirect timer
 var seconds = 10;
-
-
 var timer = setInterval(function(){
     document.getElementById('redirect').innerHTML = 'Redirecting home in '+ seconds + ' ' + 'seconds';
     
