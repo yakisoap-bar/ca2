@@ -2,13 +2,14 @@
 Author: Ang Yak Hng
 Filename: home.css
 
-Last edit: 29 Jul 2019
+Last edit: 06 Aug 2019
 */
 
 
 /* Jumbotron styling */
 #jumbo {
     background-color: #7d8cc4;
+    background-image: url(Images/background-2.jpg);
 }
 
 #github-btn {
