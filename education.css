@@ -8,6 +8,8 @@ Last edit: 29 Jul 2019
 /* Jumbotron styling */
 #jumbo {
     background-color: #b1ede8;
+    background-image: url(Images/background-4.jpg);
+    color: #ffffff;
 }
 
 

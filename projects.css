@@ -2,11 +2,12 @@
 Author: Ang Yak Hng
 Filename: projects.css
 
-Last edit: 29 Jul 2019
+Last edit: 06 Aug 2019
 */
 
 #jumbo {
     background-color: #68d89b;
+    background-image: url(Images/background-3.jpg);
 }
 
 

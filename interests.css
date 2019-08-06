@@ -2,7 +2,7 @@
 Author: Ang Yak Hng
 Filename: interests.css
 
-Last edit: 29 Jul 2019
+Last edit: 06 Aug 2019
 */
 
 
@@ -12,3 +12,6 @@ Last edit: 29 Jul 2019
 }
 
 /* Content styling */
+#jumbo {
+    background-image: url(Images/background-1.jpg);
+}
