@@ -8,6 +8,8 @@ Last edit: 06 Aug 2019
 #jumbo {
     background-color: #68d89b;
     background-image: url(Images/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

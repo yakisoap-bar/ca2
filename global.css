@@ -2,12 +2,24 @@
 Author: Ang Yak Hng
 Filename: global.css
 
-Last edit: 29 Jul 2019
+Last edit: 06 Aug 2019
 */
+
+/* Jumbotron styling */
+#jumbo {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* Content styling */
 .card {
     margin-top: 5px;
+}
+
+td {
+    width: 50%;
+    word-wrap: break-word;
 }
 
 /* Footer styling */

@@ -6,7 +6,7 @@
     Author: Ang Yak Hng
     Filename: index.html
 
-    Last edit: 02 Aug 2019
+    Last edit: 06 Aug 2019
     -->
     
     <head>
@@ -101,15 +101,51 @@
             </div>
         </div>
         
+        <!-- Credit Modal -->
+        <div class="modal fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="credit-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="credit-label">Credits</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class='table'>
+                            <thead class='thead-dark'>
+                                <tr>
+                                    <th scope='col'>Image Link</th>
+                                    <th scope='col'>Credits</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td><a href='https://unsplash.com/photos/l8DUam8vtbc'>Welcome message background</a></td>
+                                    
+                                    <td>Photo by Paweł Czerwiński on Unsplash</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
         <footer class="footer py-3 mt-3" id='footer'>
             <div class="container-fluid">
                 <div class='row'>
-                    <div class='col-6'>
+                    <div class='col-6 my-auto'>
                         <a href='#' class='btn rounded-circle' id='insta-btn'><i class="fab fa-instagram"></i></a>
                         <a href='#' class='btn rounded-circle' id='reddit-btn'><i class='fab fa-reddit'></i></a>
                     </div>
-                    <div class='col-6 text-right align-middle'>
-                        <p class=' m-0 mt-2'>&copy; Ang Yak Hng, 2019</p>
+                    <div class='col-6 text-right'>
+                        <a class='btn' href='#' data-toggle="modal" data-target="#credits">&copy; Ang Yak Hng, 2019</a>
                     </div>
                 </div>
             </div>
