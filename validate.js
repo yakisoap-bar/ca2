@@ -2,14 +2,14 @@
 Name: Ang Yak Hng
 Filename: validate.js
 
-Last edit: 30 Jul 2019
+Last edit: 16 Aug 2019
 */
 
 (function() {
     'use strict';
     window.addEventListener('load', function() {
       
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        // Get forms to display validation messages
         var forms = document.getElementsByClassName('needs-validation');
       
         // Loop over them and prevent submission

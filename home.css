@@ -2,7 +2,7 @@
 Author: Ang Yak Hng
 Filename: home.css
 
-Last edit: 06 Aug 2019
+Last edit: 16 Aug 2019
 */
 
 
@@ -16,14 +16,16 @@ Last edit: 06 Aug 2019
     color: #ffffff;
 }
 
-#img-myself {
-    width: 150px;
-}
-
 #github-btn:hover {
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
+}
+
+
+/* Content styling */
+#img-myself {
+    width: 150px;
 }
 
 /* Footer styling */
